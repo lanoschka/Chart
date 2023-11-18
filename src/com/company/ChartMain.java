@@ -1,11 +1,13 @@
-import java.awt.*;
+package com.company;
 
-public class Wykres {
+import java.awt.EventQueue;
+
+public class ChartMain {
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new Okno("wykres");
+                new Window("chart");
             }
         });
     }
